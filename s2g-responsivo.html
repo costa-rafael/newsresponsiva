@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>News responsiva</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /*img { text-align: center; width: 100%; height: auto; display: block; }*/
+        .wrap {
+            max-width: 600px;
+            width: 95vw;
+            margin: 0 auto;
+        }
+
+        a,
+        span,
+        h3 {
+            text-decoration: none;
+            font-family: "arial", sans-serif;
+            text-align: center;
+            color: #000 !important;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        span {
+            font-size: 12px;
+        }
+
+        .titulo {
+            font-size: 16px;
+            color: #000;
+        }
+
+        .valor {
+            font-family: "arial", sans-serif;
+            font-size: 15px;
+            text-decoration: none;
+        }
+
+        /*.bg { background: tomato; }*/
+        /*teste de email acima*/
+        /*.conteudo { background: gold; }*/
+        .conteudo,
+        .tabela_mae,
+        .wrap {
+            margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        .foto-responsiva {
+            width: 100%;
+            height: auto;
+        }
+
+
+        .troca_center {
+            padding: 0 30px;
+            border-left: 1px solid #000;
+            border-right: 1px solid #000;
+        }
+
+        /*:::: front do meu ::::::::::::::::::::::::::::::::*/
+        .menu {
+            padding: 5px 10px;
+            font-family: arial, sans-serif;
+            font-size: 12px;
+            background: #fff;
+        }
+
+        .font_menu {
+            text-decoration: none;
+            color: #666;
+            text-transform: uppercase;
+        }
+
+        td a img.foto-responsiva {
+            /*opacity: 0.2;*/
+            width: 100%;
+            max-height: 90vw;
+            height: auto!important;
+        }
+
+        .font_footer,
+        span {
+            font-family: "arial", sans-serif;
+            color: #848484;
+            font-size: 10px;
+        }
+
+        .bgs2g {
+            background: #ebd7ce !important;
+        }
+
+        .bordas-laterais {
+            border-left: 1px solid #ebd7ce;
+            border-right: 1px solid #ebd7ce;
+
+        }
+
+        .borda-top-bottom {
+            border-top: 1px solid #ebd7ce;
+            border-bottom: 1px solid #ebd7ce;
+        }
+
+        .alinha-direito {
+            text-align: right;
+        }
+
+        .alinha-esquerdo {
+            text-align: left;
+        }
+
+        .regra_top {
+            font-size: 11px;
+            display: inline-block;
+
+
+        }
+
+        /*abaixo de 539px vai receber essa formatação*/
+        @media screen and (max-width: 414px) {
+
+            .alinha-direito,
+            .alinha-esquerdo {
+                text-align: center !important;
+            }
+
+            .alinha-esquerdo {
+                text-align: left;
+            }
+
+            .bordas-laterais,
+            .borda-top-bottom {
+                border: none;
+
+            }
+
+            .linha-quebra {
+                display: block;
+                width: 100%;
+                background: gold;
+                height: auto;
+            }
+            
+            .img130{
+                width: 130%!important;
+            }
+
+            .bg {
+                background: #FFF;
+            }
+
+            .link_mob {
+                padding: 0 30px;
+            }
+
+            .tabela_3_linhas {
+                width: 100%;
+            }
+
+            .menu_desk {
+                display: none;
+            }
+
+            .font_center {
+                text-align: center !important;
+            }
+
+            .box_padding {
+                box-sizing: border-box;
+                padding: 10px 14px;
+            }
+
+            .troca_center {
+                padding: 10px 0;
+                border: none;
+
+            }
+
+            /*.padding-mob {
+                padding: 10px;
+            }*/
+
+        }
+
+        /*acima de 539px vai receber essa formatação*/
+        @media screen and (min-width: 415px) {
+            .linha-flex {
+                display: none;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <custom name="opencounter" type="tracking">
+
+        <div class="conteudo bg">
+
+            <!-- ===================== INICIO DO HEADER -->
+
+            <table border="0" width="600" cellpadding="0" cellspacing="0" align="center" style="margin: auto;" class="tabela_mae">
+                <tr>
+                    <td valign="middle" style="text-align: center;" align="center">
+                        <p style="color: #666; font-family: sans-serif; font-size: 12px; padding: 10px;">Caso
+                            não esteja visualizando corretamente esta mensagem, <a style="text-decoration: underline; " title="esse link" href="%%view_email_url%%" alias="esse link" conversion="false">acesse aqui.</a></p>
+                    </td>
+                </tr>
+            </table>
+            <!--fim da tabela que tem o link para vizualizar a news em um navegador-->
+
+            <table border="0" cellpadding="0" cellspacing="0" align="center" style="margin: auto; background:#ebd7ce !important;" class="tabela_mae padding-mob ">
+                <tr>
+                    <td>
+
+                        <!-- Inicio da tabela com 3 textos no topo -->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="wrap bgs2g">
+                            <tr>
+                                <td>
+
+                                    <table align="center" width="100%">
+
+                                        <tr align="center">
+                                            <td width="33%">
+                                                <table border="0" cellspacing="0" cellpadding="0" align="center">
+                                                    <tr>
+                                                        <td align="center">
+                                                            <a class="regra_top" href=" ">
+                                                                Prove em casa
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+
+                                                </table>
+                                            </td>
+
+                                            <td width="33%" style="border-left: 1px solid #000;
+    border-right: 1px solid #000; padding: 0 10px; ">
+                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="center">
+                                                            <a class="regra_top" href=" ">
+                                                                Troca sem custo
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+
+                                                </table>
+                                            </td>
+
+                                            <td width="33%">
+                                                <table border="0" cellspacing="0" cellpadding="0" align="center">
+                                                    <tr>
+                                                        <td align="center">
+                                                            <a class="regra_top" href=" ">
+                                                                Frete Grátis
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- fim da tabela WRAP que agrupa as tabelas de 3 PRODUTOS SIMPLES-->
+
+                    </td>
+                </tr>
+            </table>
+
+            <!-- LOGO : BEGIN -->
+            <table border="0" width="600" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff" class="wrap">
+                <tr>
+                    <td height="20" style="font-size: 0; line-height: 0;">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td valign="middle" style="text-align: center;">
+                        <a href="#" target="_blank"><img alt="Shop2Gether" img src="https://s3.sa-east-1.amazonaws.com/email2.shop2gether.com.br/20191111_novanews/logo_s2g.PNG" border="0"></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="100%" height="20" style="font-size: 0; line-height: 0;">&nbsp;</td>
+                </tr>
+            </table>
+            <!-- LOGO : END -->
+
+            <!--MENU : INICIO-->
+            <table cellpadding="0" cellspacing="0" align="center" class="wrap">
+                <tr bgcolor="#ffffff">
+                    <td align="center" class="menu menu_desk">
+                        <a href="#" class="font_menu" title="Novidades">
+                            What's new
+                        </a>
+                    </td>
+                    <td align="center" class="menu">
+                        <a href="#" class="font_menu" title="Marcas">
+                            Marcas
+                        </a>
+                    </td>
+                    <td align="center" class="menu">
+                        <a href="#" class="font_menu" title="Tendências">
+                            Roupas
+                        </a>
+                    </td>
+                    <td align="center" class="menu menu_desk">
+                        <a href="#" class="font_menu" title="Roupas">
+                            Calçados
+                        </a>
+                    </td>
+                    <td align="center" class="menu menu_desk">
+                        <a href="#" class="font_menu" title="Sapatos">
+                            Acessórios
+                        </a>
+                    </td>
+                    <td align="center" class="menu">
+                        <a href="#" class="font_menu" title="Sale">
+                            <strong style="text-decoration: none; ">Liquida</strong>
+                        </a>
+                    </td>
+                </tr>
+                <tr bgcolor="#ebd7ce" height="2">
+                    <td colspan="6"></td>
+                </tr>
+            </table>
+            <!--MENU : FIM-->
+
+            <!-- ===================== FIM DO HEADER -->
+
+
+
+            <div style="height: 8px;"></div>
+            <!--Inicio da tabela com 1 produto responsivo =========-->
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="tabela_mae">
+                <tr>
+                    <td>
+                        <a href=" ">
+                            <!--<img src="https://d23r2mgt97f79g.cloudfront.net/s2g_calcados0711/M0711-CALCADOSVERAO_01.jpg" alt="" class="foto-responsiva">-->
+                            <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/1a.jpg" alt="" class="foto-responsiva">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <!--Inicio da tabela com so preços-->
+                        <table width="90%" border="0" align="center" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td align="center">
+                                    <a href="#" class="link_mob">
+                                        <h3 class="titulo">Lorem ipsum dolor sit amet</h3>
+                                        <span class="valor">R$ 499,90</span><br><br>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                        <!--fim da tabela com os preços-->
+                    </td>
+                </tr>
+                <!--Fim da linha com 1 produto responsivo-->
+            </table>
+            <!--tabela com 1 banner responsivo-->
+
+
+
+            <!-- Inicio da tabela com 2 PRODUTOS + PREÇOS responsivos -->
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="wrap">
+                <tr>
+                    <td bgcolor="#FFF">
+
+                        <table align="center">
+
+                            <tr align="center">
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/2a.jpg" alt="" style="display: block;" class="foto-responsiva">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <!--Inicio da tabela com so preços-->
+                                                <table width="90%" border="0" align="center" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="center">
+                                                            <a href="#" class="link_mob">
+                                                                <h3 class="titulo">Lorem ipsum dolor sit amet</h3>
+                                                                <span class="valor">R$ 499,90</span><br><br>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--fim da tabela com os preços-->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/2b.jpg" alt="" style="display: block;" class="foto-responsiva">
+
+
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <!--Inicio da tabela com so preços-->
+                                                <table width="90%" border="0" align="center" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="center">
+                                                            <a href=" ">
+                                                                <h3 class="titulo">Lorem ipsum dolor sit amet</h3>
+                                                                <span class="valor">R$ 499,90</span><br><br>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--fim da tabela com os preços-->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- fim da tabela WRAP que agrupa as tabelas de duas linhas-->
+
+
+
+            <!-- Inicio da tabela com 3 PRODUTOS + PREÇOS responsivos -->
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="wrap">
+                <tr>
+                    <td bgcolor="#FFF">
+
+                        <table align="center">
+
+                            <tr align="center">
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/3a.jpg" alt="" style="display: block;" class="foto-responsiva">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <!--Inicio da tabela com so preços-->
+                                                <table width="90%" border="0" align="center" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="center">
+                                                            <a href="#" class="link_mob">
+                                                                <h3 class="titulo">Lorem ipsum dolor sit amet</h3>
+                                                                <span class="valor">R$ 499,90</span><br><br>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--fim da tabela com os preços-->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/3b.jpg" alt="" style="display: block;" class="foto-responsiva">
+
+
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <!--Inicio da tabela com so preços-->
+                                                <table width="90%" border="0" align="center" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="center">
+                                                            <a href=" ">
+                                                                <h3 class="titulo">Lorem ipsum dolor sit amet</h3>
+                                                                <span class="valor">R$ 499,90</span><br><br>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--fim da tabela com os preços-->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/3c.jpg" alt="" style="display: block;" class="foto-responsiva">
+
+
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <!--Inicio da tabela com so preços-->
+                                                <table width="90%" border="0" align="center" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="center">
+                                                            <a href=" ">
+                                                                <h3 class="titulo">Lorem ipsum dolor sit amet</h3>
+                                                                <span class="valor">R$ 499,90</span><br><br>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--fim da tabela com os preços-->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- fim da tabela de 3 PRODUTOS + PREÇOS-->
+
+
+
+            <!-- Inicio da tabela com 4 PRODUTOS + PREÇOS responsivos -->
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="wrap">
+                <tr>
+                    <td bgcolor="#FFF">
+
+                        <table align="center">
+
+                            <tr align="center">
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/4a.jpg" alt="" style="display: block;" class="foto-responsiva img130">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <!--Inicio da tabela com so preços-->
+                                                <table width="90%" border="0" align="center" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="center">
+                                                            <a href="#" class="link_mob">
+                                                                <h3 class="titulo">Lorem ipsum dolor sit amet</h3>
+                                                                <span class="valor">R$ 499,90</span><br><br>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--fim da tabela com os preços-->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/4b.jpg" alt="" style="display: block;" class="foto-responsiva">
+
+
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <!--Inicio da tabela com so preços-->
+                                                <table width="90%" border="0" align="center" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="center">
+                                                            <a href=" ">
+                                                                <h3 class="titulo">Lorem ipsum dolor sit amet</h3>
+                                                                <span class="valor">R$ 499,90</span><br><br>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--fim da tabela com os preços-->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/3c.jpg" alt="" style="display: block;" class="foto-responsiva">
+
+
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <!--Inicio da tabela com so preços-->
+                                                <table width="90%" border="0" align="center" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="center">
+                                                            <a href=" ">
+                                                                <h3 class="titulo">Lorem ipsum dolor sit amet</h3>
+                                                                <span class="valor">R$ 499,90</span><br><br>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--fim da tabela com os preços-->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/4d.jpg" alt="" style="display: block;" class="foto-responsiva">
+
+
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <!--Inicio da tabela com so preços-->
+                                                <table width="90%" border="0" align="center" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="center">
+                                                            <a href=" ">
+                                                                <h3 class="titulo">Lorem ipsum dolor sit amet</h3>
+                                                                <span class="valor">R$ 499,90</span><br><br>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--fim da tabela com os preços-->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- fim da tabela de 4 PRODUTOS + PREÇOS-->
+
+
+
+            <!-- Inicio da tabela com 5 PRODUTOS + PREÇOS responsivos -->
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="wrap">
+                <tr>
+                    <td bgcolor="#FFF">
+
+                        <table align="center">
+
+                            <tr align="center">
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/5a.jpg" alt="" style="display: block;" class="foto-responsiva">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <!--Inicio da tabela com so preços-->
+                                                <table width="90%" border="0" align="center" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="center">
+                                                            <a href="">
+                                                                <h3 class="titulo">Lorem ipsum dolor sit amet</h3>
+                                                                <span class="valor">R$ 499,90</span><br><br>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--fim da tabela com os preços-->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/5b.jpg" alt="" style="display: block;" class="foto-responsiva">
+
+
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <!--Inicio da tabela com so preços-->
+                                                <table width="90%" border="0" align="center" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="center">
+                                                            <a href="">
+                                                                <h3 class="titulo">Lorem ipsum dolor sit amet</h3>
+                                                                <span class="valor">R$ 499,90</span><br><br>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--fim da tabela com os preços-->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/5c.jpg" alt="" style="display: block;" class="foto-responsiva">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <!--Inicio da tabela com so preços-->
+                                                <table width="90%" border="0" align="center" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="center">
+                                                            <a href="">
+                                                                <h3 class="titulo">Lorem ipsum dolor sit amet</h3>
+                                                                <span class="valor">R$ 499,90</span><br><br>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--fim da tabela com os preços-->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/5d.jpg" alt="" style="display: block;" class="foto-responsiva">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <!--Inicio da tabela com so preços-->
+                                                <table width="90%" border="0" align="center" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="center">
+                                                            <a href="">
+                                                                <h3 class="titulo">Lorem ipsum dolor sit amet</h3>
+                                                                <span class="valor">R$ 499,90</span><br><br>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--fim da tabela com os preços-->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/5e.jpg" alt="" style="display: block;" class="foto-responsiva">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <!--Inicio da tabela com so preços-->
+                                                <table width="90%" border="0" align="center" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td align="center">
+                                                            <a href="">
+                                                                <h3 class="titulo">Lorem ipsum dolor sit amet</h3>
+                                                                <span class="valor">R$ 499,90</span><br><br>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--fim da tabela com os preços-->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+
+
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- fim da tabela de 5 PRODUTOS + PREÇOS-->
+
+            <!--======  ABAIXO OS BLOCOS SIMPLES =======================================================-->
+
+            <!-- Inicio da tabela com 1 PRODUTOS SIMPLES responsivos -->
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="tabela_mae">
+                <tr>
+                    <td>
+                        <a href=" ">
+                            <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/1a.jpg" alt="" class="foto-responsiva">
+                        </a>
+                    </td>
+                </tr>
+                <!--Fim da linha com 1 produto responsivo-->
+            </table>
+            <!-- fim da tabela WRAP que agrupa as tabelas de 1 PRODUTOS SIMPLES-->
+
+
+
+            <!-- Inicio da tabela com 2 PRODUTOS SIMPLES responsivos -->
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="wrap">
+                <tr>
+                    <td bgcolor="#FFF">
+
+                        <table align="center">
+
+                            <tr align="center">
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/2a.jpg" alt="" style="display: block;" class="foto-responsiva">
+                                                </a>
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                </td>
+
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/2b.jpg" alt="" style="display: block;" class="foto-responsiva">
+
+
+                                                </a>
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- fim da tabela WRAP que agrupa as tabelas de 2 PRODUTOS SIMPLES-->
+
+
+
+            <!-- Inicio da tabela com 3 PRODUTOS SIMPLES responsivos -->
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="wrap">
+                <tr>
+                    <td bgcolor="#FFF">
+
+                        <table align="center">
+
+                            <tr align="center">
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/3a.jpg" alt="" style="display: block;" class="foto-responsiva">
+                                                </a>
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                </td>
+
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/3b.jpg" alt="" style="display: block;" class="foto-responsiva">
+
+
+                                                </a>
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                </td>
+
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/3c.jpg" alt="" style="display: block;" class="foto-responsiva">
+
+
+                                                </a>
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- fim da tabela WRAP que agrupa as tabelas de 3 PRODUTOS SIMPLES-->
+
+
+
+            <!-- Inicio da tabela com 4 PRODUTOS SIMPLES responsivos -->
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="wrap">
+                <tr>
+                    <td bgcolor="#FFF">
+
+                        <table align="center">
+
+                            <tr align="center">
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/4a.jpg" alt="" style="display: block;" class="foto-responsiva">
+                                                </a>
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                </td>
+
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/4b.jpg" alt="" style="display: block;" class="foto-responsiva">
+
+
+                                                </a>
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                </td>
+
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/4c.jpg" alt="" style="display: block;" class="foto-responsiva">
+
+
+                                                </a>
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                </td>
+
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/4d.jpg" alt="" style="display: block;" class="foto-responsiva">
+
+
+                                                </a>
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- fim da tabela WRAP que agrupa as tabelas de 4 PRODUTOS SIMPLES-->
+
+
+
+            <!-- Inicio da tabela com 5 PRODUTOS SIMPLES responsivos -->
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="wrap">
+                <tr>
+                    <td bgcolor="#FFF">
+
+                        <table align="center">
+
+                            <tr align="center">
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/5a.jpg" alt="" style="display: block;" class="foto-responsiva">
+                                                </a>
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                </td>
+
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/5b.jpg" alt="" style="display: block;" class="foto-responsiva">
+
+
+                                                </a>
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                </td>
+
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/5c.jpg" alt="" style="display: block;" class="foto-responsiva">
+
+
+                                                </a>
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                </td>
+
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/5d.jpg" alt="" style="display: block;" class="foto-responsiva">
+
+
+                                                </a>
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                </td>
+
+                                <td class="linha-quebra">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center">
+                                                <a href=" ">
+                                                    <img src="https://s3-sa-east-1.amazonaws.com/email2.shop2gether.com.br/20200909_responsivo/5e.jpg" alt="" style="display: block;" class="foto-responsiva">
+
+
+                                                </a>
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- fim da tabela WRAP que agrupa as tabelas de 5 PRODUTOS SIMPLES-->
+
+
+
+
+            <!--INICIO DO FOOTER :: NÃO APAGAR-->
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="wrap borda-top-bottom">
+                <tr bgcolor="#ebd7ce" height="1">
+                    <td colspan="6"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- Inicio da tabela com 2 textos bandeiras e segurança -->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="wrap">
+                            <tr>
+                                <td>
+
+                                    <table align="center">
+
+                                        <tr align="center">
+                                            <td class="linha-quebra" style="padding: 5px 0;">
+                                                <table border="0" cellspacing="0" cellpadding="0" align="center" width="300">
+                                                    <tr>
+                                                        <td align="center" class="alinha-direito">
+                                                            <a href="">
+                                                                <img src="https://s3.sa-east-1.amazonaws.com/email2.shop2gether.com.br/20191111_novanews/insta.jpg" alt="">
+                                                            </a>
+                                                            <a href="">
+                                                                <img src="https://s3.sa-east-1.amazonaws.com/email2.shop2gether.com.br/20191111_novanews/face.jpg" alt="">
+                                                            </a>
+                                                            <a href="">
+                                                                <img src="https://s3.sa-east-1.amazonaws.com/email2.shop2gether.com.br/20191111_novanews/youtube.jpg" alt="">
+                                                            </a>
+                                                            <a href="">
+                                                                <img src="https://s3.sa-east-1.amazonaws.com/email2.shop2gether.com.br/20191111_novanews/print.jpg" alt="">
+                                                            </a>
+                                                            <a href="">
+                                                                <img src="https://s3.sa-east-1.amazonaws.com/email2.shop2gether.com.br/20191111_novanews/spot.jpg" alt="">
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+
+                                            <td class="linha-quebra " style="padding: 0 0 10px 0;">
+                                                <table border="0" cellspacing="0" cellpadding="0" align="center" width="250">
+                                                    <tr>
+                                                        <td align="center" class="alinha-esquerdo">
+                                                            <span style="text-transform: uppercase; color: #000; font-weight: 600; font-size: 13px; font-family: sans-serif;">@shop2gether</span>
+
+                                                        </td>
+                                                    </tr>
+
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- fim da tabela WRAP que agrupa as tabelas de 3 PRODUTOS SIMPLES-->
+                    </td>
+                </tr>
+            </table>
+            <!-- Fim da Tabela com 2 textos bandeiras e segurança -->
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="wrap" bgcolor="#ebd7ce">
+                <tr height="20">
+                    <td>
+                        <span style="text-transform: uppercase; color: #000; font-weight: 600; font-size: 12px; font-family: sans-serif; padding: 10px 20px;">
+                            Novidades Diárias das Marcas Que Você Adora!
+                        </span>
+                    </td>
+                </tr>
+            </table>
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="wrap">
+                <tr>
+                    <td>
+                        <!-- Inicio da tabela com 3 textos no topo -->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="wrap">
+                            <tr>
+                                <td bgcolor="">
+
+                                    <table align="center">
+
+                                        <tr align="center">
+                                            <td class="linha-quebra" style="padding: 10px 0;">
+                                                <table border="0" cellspacing="0" cellpadding="0" align="center" width="190">
+                                                    <tr>
+                                                        <td align="center">
+                                                            <a href="https://www.oqvestir.com.br/entregas_e_fretes?utm_source=oqvestir&utm_medium=disparo&utm_content=footerparcelamento&utm_campaign=20190925_trocar_esse_link" style="text-decoration:none;" target="_blank"><img src="https://s3.sa-east-1.amazonaws.com/email2.shop2gether.com.br/20191111_novanews/troca.jpg" height="31" width="60" alt=""><br />
+                                                                <span style=" color: #000000; font-weight: bold; text-transform: uppercase;">Troca Sem Custo</span><br />
+                                                                <span style="color: #9597a4;">Nas compras acima de R$ 299,00 a retirada é feita sem custo</span> </a>
+                                                        </td>
+                                                    </tr>
+
+                                                </table>
+                                            </td>
+
+                                            <td class="linha-quebra bordas-laterais" style="padding: 10px 0;">
+                                                <table border="0" cellspacing="0" cellpadding="0" align="center" width="190">
+                                                    <tr>
+                                                        <td align="center">
+                                                            <a href="https://www.oqvestir.com.br/entregas_e_fretes?utm_source=oqvestir&utm_medium=disparo&utm_content=footerparcelamento&utm_campaign=20190925_trocar_esse_link" style="text-decoration:none;" target="_blank"><img src="https://s3.sa-east-1.amazonaws.com/email2.shop2gether.com.br/20191111_novanews/provar.jpg" height="31" width="60" alt=""><br />
+                                                                <span style=" color: #000000; font-weight: bold; text-transform: uppercase;">Quer Provar Em Casa?</span><br />
+                                                                <span style="color: #9597a4;">Prove quantas vezes e se não gostar, devolva até 100% de sua compra.</span> </a>
+                                                        </td>
+                                                    </tr>
+
+                                                </table>
+                                            </td>
+
+                                            <td class="linha-quebra" style="padding: 10px 0;">
+                                                <table border="0" cellspacing="0" cellpadding="0" align="center" width="190">
+                                                    <tr>
+                                                        <td align="center">
+                                                            <a href="https://www.oqvestir.com.br/entregas_e_fretes?utm_source=oqvestir&utm_medium=disparo&utm_content=footerparcelamento&utm_campaign=20190925_trocar_esse_link" style="text-decoration:none;" target="_blank"><img src="https://s3.sa-east-1.amazonaws.com/email2.shop2gether.com.br/20191111_novanews/parcela.jpg" height="31" width="60" alt=""><br />
+                                                                <span style=" color: #000000; font-weight: bold; text-transform: uppercase;">Até 10x Sem Juros</span><br />
+                                                                <span style="color: #9597a4;">Aproveite o parcelamento e compre todas as peças que você amou.</span> </a>
+                                                        </td>
+                                                    </tr>
+
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- fim da tabela WRAP que agrupa as tabelas de 3 PRODUTOS SIMPLES-->
+                    </td>
+                </tr>
+            </table>
+            <!-- Tabela com troca sem custo + prova em casa + 10x sem juros -->
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="wrap borda-top-bottom">
+                <tr>
+                    <td>
+                        <!-- Inicio da tabela com 2 textos bandeiras e segurança -->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="wrap">
+                            <tr>
+                                <td bgcolor="">
+
+                                    <table align="center">
+
+                                        <tr align="center">
+                                            <td class="linha-quebra" style="padding: 10px 0;">
+                                                <table border="0" cellspacing="0" cellpadding="0" align="center" width="300">
+                                                    <tr>
+                                                        <td align="center" class="alinha-esquerdo">
+                                                            <img src="https://s3.sa-east-1.amazonaws.com/email2.shop2gether.com.br/20191111_novanews/bandeiras.jpg" height="34" width="286" alt=""><br />
+
+                                                        </td>
+                                                    </tr>
+
+                                                </table>
+                                            </td>
+
+                                            <td class="linha-quebra " style="padding: 10px 0;">
+                                                <table border="0" cellspacing="0" cellpadding="0" align="center" width="250">
+                                                    <tr>
+                                                        <td align="center" class="alinha-direito">
+                                                            <img src="https://s3.sa-east-1.amazonaws.com/email2.shop2gether.com.br/20191111_novanews/seguranca.jpg" height="32" width="125" alt=""><br />
+
+                                                        </td>
+                                                    </tr>
+
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- fim da tabela WRAP que agrupa as tabelas de 3 PRODUTOS SIMPLES-->
+                    </td>
+                </tr>
+            </table>
+            <!-- Fim da Tabela com 2 textos bandeiras e segurança -->
+
+            <table border="0" cellspacing="0" cellpadding="0" align="center">
+
+                <tr>
+                    <td colspan="3" height="10" align="center" valing="midlle">
+                        <!--INICIO DO FOOTER-->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+
+                            <tr>
+                                <td height="20">&nbsp; </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <!-- Texto Legal - NÃO MEXER: BEGIN -->
+                                    <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" style="margin: auto;" class="tabela_mae" bgcolor="#f7f7f7">
+                                        <tr>
+                                            <td>
+                                                <table border="0" width="95%" cellpadding="0" cellspacing="0" align="center" class="rodape" style="font-family:Arial, Helvetica, sans-serif; font color:#888; font-size:10px;" class="font_center box_padding">
+                                                    <tr>
+                                                        <td align="center" class="font_center">
+                                                            <br>
+                                                            Esse email foi enviado por: %%Member_Busname%% %%Member_Addr%% %%Member_city%% %%Member_State%%, %%Member_postalcode%% %%Member_country%%.
+                                                            <br>
+                                                            <br>
+                                                            Você está recebendo esta newsletter porque se cadastrou no SHOP2GETHER com o email: %%emailaddr%%.
+
+                                                            <br>
+                                                            <br>
+                                                            Insira o endereço <a href="mailto:novidades@news.shop2gether.com.br" target="_blank">novidades@news.shop2gether.com.br</a> em sua lista de remetentes confiáveis para receber nossas novidades em sua caixa de e-mails. Se você não deseja mais receber nossos e-mails, <a href="%%unsub_center_url%%" title="descadastre-se aqui" target="_blank">descadastre-se aqui</a>.
+                                                            <br>
+                                                            <br>
+                                                            As condições divulgadas neste e-mail são válidas enquanto durarem os estoques e estão sujeitos a alterações sem aviso prévio.
+                                                            <br>
+                                                            <br>
+                                                            Caso queira alterar suas informações pessoais acesse este <a href="https://www.shop2gether.com.br/customer/account/login?utm_source=em_s2g&utm_medium=email_marketing&utm_content=txt_minhaconta&utm_campaign=2020-TROCAR-ESSE-LINK" title="Minha Conta" target="_blank">link</a>. <br>
+                                                            <br>
+                                                            O site shop2gether.com.br respeita a sua privacidade. Para conhecer nossas Condições Gerais <a href="https://www.shop2gether.com.br/condicoes_gerais?utm_source=em_s2g&utm_medium=email_marketing&utm_content=txt_condicoesgerais&utm_campaign=2020-TROCAR-ESSE-LINK" title="Condições Gerais" target="_blank">clique aqui</a>. <br>
+                                                            <br /><strong>Central de Relacionamento:</strong><br>
+                                                            Dúvidas, críticas ou sugestões, contate-nos através do:
+                                                            <br>
+                                                            Telefone: (11) 3059-4021
+                                                            <br>
+                                                            Email: <a href="mailto:atendimento@shop2gether.com.br" title="E-mail" target="_blank">atendimento@shop2gether.com.br</a><br>
+                                                            Nosso horário de atendimento é de segunda a sexta feira, das 8h15 às 20h e aos sábados e feriados das 9h15 às 15h.
+
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>&nbsp;
+
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- Texto Legal - NÃO MEXER: END -->
+                                </td>
+                            </tr>
+                        </table>
+                        <!--FIM DA TABELA FOOTER-->
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="3" height="10">&nbsp;
+
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" height="10">
+                        <table>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                        </table>
+
+                    </td>
+                </tr>
+            </table>
+            <!--FIM DO FOOTER :: NÃO APAGAR-->
+
+
+
+
+
+
+
+            <!--OBS: NAO APAGAR O FECHAMENTO DA DIV principal-->
+        </div>
+        <!--fim do conteudo agrupando toda news-->
+</body>
+
+</html>
